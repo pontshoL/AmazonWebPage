@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+        body {
+            position: absolute;
+            height: 100vh;
+            top: 0%;
+            right: 0%;
+            bottom: 0%;
+            left: 0%;
+            margin: 0%;
+            
+        }
+        .main {
+            position: absolute;
+            display: relative;
+            height: 100vh;
+            top: 0%;
+            right: 0%;
+            bottom: 0%;
+            left: 0%;
+            margin: 0%;
+         
+        }
+        .main1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 100vh;
+            top: 0%;
+            right: 0%;
+            bottom: 0%;
+            left: 0%;
+            margin: 0%;
+            position: absolute;
+            display: relative;
+        }
+        .cont1 {
+            width: 50%;
+        }
+        .cont2 {
+            width: 1000px;
+            background-color:darkorange;
+            border-top-left-radius: 40px;
+            justify-content: flex-end;
+            height: 800px;
+            align-self: end;
+            
+        }
+        .main2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 300px 1500px 100px;
+            height: 100vh;
+            z-index: 1;
+            position: relative;
+            
+        }
+        .inmain21 {
+            background-color: rgba(59, 46, 22, 0);
+            width: 300px;
+            
+        }
+        .inmain22 {
+            background-color: rgb(245, 245, 245);
+            width: 1300px;
+            height: 700px;
+            align-self: center;
+            margin-top: 190px;
+            border-radius: 50px;
+            border-style: solid;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            
+        }
+        .inmain23 {
+            background-color: rgba(165, 165, 158, 0);
+            width: 100px;
+            
+        }
+        .row1 {
+            margin-top: 10px;
+            height: 50px;
+            background-color: white;
+            
+        }
+        .inrow1{
+            height: 110px;
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-top-left-radius: 15px;
+            
+        }
+        .inrow2{
+            height: 110px;
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .inrow3{
+            height: 110px;
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-bottom-left-radius: 15px;
+            
+        }
+        input{
+            border-radius: 5px;
+            border: 0px;
+            margin-top: 15px;
+            margin-left: 50px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+        nav {
+            text-align: right;
+            margin-right: 60px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-family:'Nunito', sans-serif;
+            font-weight: 600;
+        }
+        .row2 {
+            height: 300px;
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 214px 1086px;
+        }
+        .row3 {
+            height: 300px;
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 214px 1086px;
+        }
+        .clol1 {
+            width: 214px;
+            background-color: rgb(183, 185, 183);
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+        .rw3col1 {
+            width: 214px;
+            background-color: rgb(241, 243, 242);
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+        .col2 {
+            border-style: solid;
+            height: 300px;
+            border: 1px;
+            border-color: black;
+            width: 1086px;
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 100px 327px 327px 327px;
+        }
+        .rw3col2 {
+            border-style: solid;
+            height: 300px;
+            border: 1px;
+            border-color: black;
+            width: 1086px;
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 100px 152px 152px 152px 152px 152px 220px;
+        }
+        .cul1 {
+            height: 300px;
+            width: 327px;
+            background-color:white;
+
+        }
+        .incul1{
+            height: 110;
+            background-color: white;
+            width: 125px;
+        }
+        .incul2{
+            height: 110;
+            background-color: white;
+            width: 125px;
+        }
+        .incul2{
+            height: 110;
+            background-color: white;
+            width: 125px;
+        }
+        .incul3{
+            height: 110;
+            background-color: white;
+            width: 125px;
+        }
+        .incul3{
+            height: 110;
+            background-color: white;
+            width: 125px;
+        }
+        .incul4{
+            height: 110;
+            background-color: white;
+            width: 125px;
+        }
+        .innercul2{
+            height: 300px;
+            width: 327px;
+            background-color: white;
+
+        }
+        .cul2 {
+            height: 300px;
+            width: 327px;
+            background-color: white;
+
+        }
+        .innercul3 {
+            height: 300px;
+            width: 327px;
+            background-color: white;
+        }
+        .innercul4 {
+            height: 300px;
+            width: 327px;
+            background-color: white;
+        }
+        .innercul5 {
+            height: 300px;
+            width: 327px;
+            background-color: white;
+        }
+        
+        .innercul7 {
+            height: 300px;
+            width: 250px;
+            background-color: white;
+            margin-left: 60px;
+            margin-top: -75px;
+            border-radius: 15px;
+        }
+       
+
+        .img2{
+            height: 120px;
+            border-radius: 150px;
+            border-style: solid;
+            margin: 10px;
+        }
+        .picture{
+            text-align: center;
+            
+        }
+        .books{
+            display: flex;
+            align-items: center;
+            background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+            height: 80px;
+            border-radius: 15px;
+            padding: 10px 20px;
+            margin: 3.5rem .5rem;
+            justify-content: space-between;
+            position: relative;
+            width: 270px;
+            /*top: 50px;*/
+        }
+        .books1{
+            display: flex;
+            align-items: center;
+            background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+            height: 80px;
+            border-radius: 15px;
+            padding: 10px 20px;
+            margin: 3.5rem .5rem;
+            justify-content: space-between;
+            position: relative;
+            width: 270px;
+            top: 40px;
+            
+        }
+        .book-cov{
+            width: 80px;
+            height: 120px;
+            border-radius: 15px;
+            margin-left: 7px;
+            position: absolute;
+            top: -50px;
+        }
+        .book-cover{
+            margin-right: 15px;
+    
+        }
+        .book-bottom{
+            border-radius: 15px;
+            width: 80px;
+            margin-right: 50px;
+        }
+        .book-bottom1{
+            border-radius: 15px;
+            width: 80px;
+            margin-right: 50px;
+            margin-top: 60px;
+        }
+        .book-bottom2{
+            border-radius: 15px;
+            width: 80px;
+            margin-right: 50px;
+            margin-top: 50px;
+        }
+        .book-bottom3{
+            border-radius: 15px;
+            width: 90px;
+            margin-right: 50px;
+            margin-top: 55px;
+        }
+        .book-bottom4{
+            border-radius: 15px;
+            width: 80px;
+            margin-right: 50px;
+            margin-top: 45px;
+        }
+        .book-bottom5{
+            border-radius: 15px;
+            width: 95px;
+            margin-right: 50px;
+            margin-top: 55px;
+        }
+       
+        .title{
+          margin: 10px;
+        }
+
+        .sidebar a{
+          color: rgb(14, 12, 12);
+          display: block;
+          /*width: 8%*/;
+          margin-bottom: 30px;
+          text-align: center;
+          margin-right: 20px;
+        }
+       .fa-solid{
+          margin-right:10px
+        }
+        .image1{
+            height: 80px;
+            width: 70px;
+            border-radius: 150px;
+            margin: 10px;
+        }
+        .type{
+            background-color: rgb(160, 156, 156);
+            border-radius: 15px;
+            padding-left: 9px;
+            padding-right: 9px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            
+        }
+       
