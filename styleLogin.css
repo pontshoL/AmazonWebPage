@@ -128,7 +128,7 @@ body.active{
 }
 
 .formBx .form form input[type="submit"]{
-    background: #03a9f4;
+    background: #5e7e8d;
     border: none;
     color: #fff;
     max-width: 100px;
@@ -140,5 +140,21 @@ body.active{
 }
 .formBx .form form .forgot{
     color: #333;
+}
+button{
+    background: #03a9f4;
+    border: none;
+    color: #fff;
+    max-width: 100px;
+    cursor: pointer;
+    height: 40px;
+    border: 1px solid rgb(43, 79, 126);
+    margin-bottom: 20px;
+}
+span {
+    color: red;
+}
+.hidden {
+    display: none;
 }
 

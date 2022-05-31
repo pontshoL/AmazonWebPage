@@ -7,6 +7,7 @@
     <title>Sign in and Sign Up Form</title>
     <link rel="stylesheet" href="styleLogin.css">
     <script src="https://kit.fontawesome.com/aa6f4fc52d.js" crossorigin="anonymous"></script>
+    <script src="login.js" defer></script>
 </head>
 <body>
     
@@ -26,12 +27,17 @@
         </div>
          <div class="formBx">
             <div class="form signinForm">
-                <form action="home.html">
+                <form action="home.html" id="signInForm">
                     <h3>Sign In</h3>
-                    <input type="text" placeholder="Username">
-                    <input type="password" placeholder="Password">
+                    <input id="user" type="text" placeholder="Username">
+                    <span id="error" class="hidden">Username is required</span>
+                    <input id="password" type="password" placeholder="Password">
+                    <span id="emptyField" class="hidden">Password can not be empty</span>
+                    <input id="confirmpassword" type="password" placeholder="confirmPassword">
+                    <span id="passwordValid" class="hidden">Password's don't match</span>
                     <input type="submit" value="Login">
-                    <a href="#" class="forgot">Forgot Password</a>
+                    <!--<button class="login" id="submitForm">Login</button>-->
+                    <a href="#" class="forgot">Forgot Password?</a>
 
                 </form>
             </div>
